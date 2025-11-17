@@ -42,6 +42,9 @@
             "dev-master": "1.0.x-dev"
         }
     },
+    "replace": {
+        "stevenmaguire/oauth2-keycloak": "*"
+    },
     "scripts": {
         "test": [
             "@putenv XDEBUG_MODE=coverage",
